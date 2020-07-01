@@ -17,7 +17,7 @@ spec:
         app.kubernetes.io/name: demo-backend-svc
     spec:
       containers:
-      - image: nginxinc/nginx-unprivileged:latest
+      - image: quay.io/tomkral/demo-gitops:latest
         imagePullPolicy: Always
         name: demo-backend-svc
         ports:
